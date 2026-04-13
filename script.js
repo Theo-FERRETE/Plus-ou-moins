@@ -8,7 +8,6 @@ function generateRandomNumber(min, max){
 }
 
 const randomNumber = generateRandomNumber(parseInt(numMin), parseInt(numMax));
-console.log(randomNumber);
 
 let userGuess = prompt("Guess the number between " + numMin + " and " + numMax);
 
